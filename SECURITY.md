@@ -1,21 +1,44 @@
-# Security Policy
-
-## Supported Versions
-
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+# 安全协议(Security Policy)
+日志有时候会包含一些我们的隐私信息,当您发现本程序很有可能/一定会泄漏用户的隐私时,请按照本文中指示的步骤操作
+## 支持的版本(Supported Versions)
+我们对一切版本一视同仁,除非我们公开宣布某个版本不受支持,否则我们在收到用户反馈后,我们都会尽全力去修复这些漏洞!(当然,我们也欢迎愿意加入我们的开发者!大家一起让这个项目变得更好~)
+我们公布的受支持的版本如下:
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| 1.0.0   | :white_check_mark: |
+|1.0.1 (Beta)| :white_check_mark: |
 
-## Reporting a Vulnerability
+欢迎所有人对受支持的版本提出反馈
 
-Use this section to tell people how to report a vulnerability.
+## 报告安全漏洞(Reporting a Vulnerability)
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+如果您发现了安全漏洞,请不提交Issues以反馈这些问题!为了保护用户隐私,请您通过README中的电子邮件联系开发团队!您可以通过以下模版来向开发团队发送电子邮件([]中的内容应当改动为符合您实际需求的内容)<br>
+#### 标题:关于用户安全泄漏的漏洞反馈——[简要描述漏洞名称]
+#### 正文:
+#### (就不用什么“致:xxx“了,直接说事情!)一、环境描述
+- 你用的什么系统
+- 你什么时候发现的这个漏洞
+- 你认为这个漏洞可能会给用户带来什么
+#### 二、复现步骤或你怎么发现的
+- (详细描述复现步骤,如果没有复现步骤,就请描述你是如何发现的,或者两者均填写也可以~)
+#### 三、(选填)您认为如何解决这个问题
+- (如果您有解决方案,请详细的描述您的解决方案,或者您也可以附上您的解决方案文档)
+#### 四、附件清单
+- (如果您有附件,请填写您的附件清单,方便开发者核对!)
+#### 五、落款(选填)
+[您的姓名/GitHub账号名] (GitHub账号名请在前加“@”)<br>
+[日期]<br>
+### 收到邮件后,开发者会如何处理?
+在收到邮件后,开发者将以最高级别的开发级别来进行漏洞的修复,开发者将:
+
+- 开发者将会在48小时内通过您发送邮件的邮箱回复您
+- 在查看完毕您的邮件后,开发者将作出初步评估,并向您发送邮件,邮件内容大概如下
+  >尊敬的xxx(您的姓名/GitHub账号名):<br>
+  >经过开发者的初步评估,我们认为[评估结论,说白了就是修还是不修],因为:<br>
+  >[原因] (如果修复,为什么,如果不修复,又是为什么)<br>
+  >如果您对这个结果有异议,请在72小时内回复<br>
+  >System-log-automatic-alert-email-sending-script-only-for-macOS开发团队<br>
+  >[回复时间]<br>
+- 随后,我们将会等候72小时以等待您的回复,如果您对结果没有异议且我们的回复结果为同意修复,我们将立刻着手开始修复工作,在此期间,我们可能会想您发送邮件询问更多详细信息或者询问您是否愿意加入我们一起进行修复,两种邮件后者您可以不用回复,但是请一定重视第一种邮件!这将是该漏洞修复的核心命脉!
+- 修复后,我们将会在新的发行版上着重感谢您,并立即停止原版本的技术支持且强制要求所有用户迁移到新版本
