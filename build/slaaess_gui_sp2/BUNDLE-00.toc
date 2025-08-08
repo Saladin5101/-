@@ -1,3 +1,0 @@
-([('slaaess_gui_sp2',
-   '/Users/ddd/Documents/System-log-automatic-alert-email-sending-script-only-for-macOS-/dist/slaaess_gui_sp2',
-   'EXECUTABLE')],)
