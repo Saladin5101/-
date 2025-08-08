@@ -7,7 +7,8 @@
 | Version | Supported          |
 | ------- | ------------------ |
 | 1.0.0   | :white_check_mark: |
-|1.0.1 (Beta)| :white_check_mark: |
+|1.0.1 (Beta)| :x: |
+|1.0.1|:white_check_mark:|
 
 欢迎所有人对受支持的版本提出反馈
 
